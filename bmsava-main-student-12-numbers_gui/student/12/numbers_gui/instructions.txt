@@ -1,0 +1,57 @@
+COMP.CS.110 Ohjelmointi 2: Rakenteet / Programming 2: Structures          
+Project 4: Peli 2048 / Game 2048                                     
+
+Description:
+	Graphic user interface for game called 2048
+
+	Rules briefly
+	The purpose of the game is to achieve the goal value by moving numbertiles
+	on the gameboard consisting of squares (4 x 4). Numbertiles with the same value
+	merge into one with greater value on it. After every move a new numbertile pops up
+	on the gameboard. If the whole gameboard becomes filled up before achieving the goal,
+	the game ends.
+
+	Structure of the program
+	The program consists of modules: Gameboard, NumberTile and Mainwindow. Class GameBoard
+	includes the data, functionality and execution of the gameboard. Class NumberTile includes
+	the data, functionality and execution of a single tile on gameboard. Module Mainwindow 
+	forms the graphic user interface. It is separated from the game functionality, but calls
+	for other classes when needed.
+
+	Instructions
+	At the beginning the player must give the seed and goal values for game initialization.
+	If the seed is not given or it is not an integer, the program generates the seed for
+	distributing new tiles on the board. If the goal value is not given or it is not an integer
+	or it is not a potens of 2, the default value (2048) is set. In these cases the player is
+	infromed with messages.
+		The game starts and the timer strats to run after clicking the ok button. After
+	initializing the game it is not possible to use ok button anymore. New game is possible to start
+	with the reset game button.	
+		Keys W-A-S-D are used to move the numbertiles to wanted directions. It is possible to
+	pause the timer by clicking the pause button. The keys are locked during the pause. The game
+	continues after clicking the button again.
+		It is possible to start a new game at any time by clicking the reset button. If new
+	seed and goal values are set before reseting, the new game starts with those settings. The timer
+	also resets.
+		The player is informed with messages about winning or losing and by changing the background
+	color. Also the timer stops. The keys and the pause button are locked. The player has options to start
+	a new game or to close the mainwindow.		
+
+Notes:
+	Extra features
+	2. Different tiles have different colors
+	5. Game timer
+	11. Checks if the given goal value is a potens of 2
+	12. Changes the background-color of the mainwindow when winning or losing
+	14. Pause functionality for the timer
+		
+
+Program author:
+	Name: Salli Valkama                                      
+	Student number:  150427834                               
+	UserID: bmsava                                           
+	E-Mail: salli.valkama@tuni.fi  
+
+		
+	
+
