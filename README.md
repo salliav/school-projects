@@ -11,4 +11,7 @@ File bmsava/gui_project
 GUI project coded with C++. A Numbertile game. Files mainwindow.hh and mainwindow.cpp coded by me, other files are provided by the univeristy course. Course: Programming 2
 
 File bmsava/prg2
-Practised use of stl algorithms and pointers. Represents the data structure of a railway system. File datastructures.cc coded by me, other files are provided by the univeristy course.. Course: Data structures and algorithms
+Practised use of stl algorithms and pointers. Represents the data structure of a railway system. File datastructures.cc coded by me, other files are provided by the univeristy course. Course: Data structures and algorithms
+
+Recipe_finder_project
+My first independently coded project. React application to search for meal recipes based on ingredients. Practised React GUI concepts and use of API. Contains documentation for more information.
