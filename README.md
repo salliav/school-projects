@@ -1,5 +1,5 @@
-# school-projects
-This repository contains small coding projects
+# My first projects
+Contains small projects, some of which were made as part of university courses. In the projects, I have practiced basic concepts, the use of different languages, and creating graphical user interfaces.
 
 File 13. Graafiset käyttöliittymät
 GUI project coded with Python. Represents a calculator needed in knitting hobby. Course: Programming 1
