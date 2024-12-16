@@ -1,8 +1,6 @@
 """
 COMP.CS.100 Ohjelmointi 1 / Programming 1
-Student Id: 150427834
 Name:       Salli Valkama
-Email:      salli.valkama@tuni.fi
 
 Program for calculating the amount of stitches for a new knitwork.
 """
